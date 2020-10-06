@@ -7,7 +7,7 @@
 .btn__flexbox {
   display: flex;
 
-  @include for-size(mobile-only) {
+  @media screen and (min-width: 319px) and (max-width: 767px) {
     justify-content: flex-start;
     flex-wrap: wrap;
   }
