@@ -188,9 +188,9 @@ textarea {
 }
 
 .modal__btn {
-    @include for-size(mobile) {
+    @media screen and (min-width: 319px) {
         display: flex;
         justify-content: center;
-        
-    }
+      }
+
 }

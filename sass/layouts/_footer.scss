@@ -25,6 +25,11 @@
 }
 
 .flex-container {
+  @media screen and (min-width: 319px) and (max-width: 767px) {
+    
+    margin-right: 0;
+  }
+
   @include for-size(tablet) {
     display: flex;
     flex-wrap: wrap;

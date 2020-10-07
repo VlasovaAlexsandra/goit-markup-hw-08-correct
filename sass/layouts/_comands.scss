@@ -19,7 +19,8 @@
 
     @include for-size(desktop) {
         max-width: 270px;
-        max-height: 428px;        
+        max-height: 428px; 
+        padding-bottom: 30px;       
     }
 }
 
@@ -60,7 +61,7 @@
     }
 
     @include for-size(desktop) {
-        margin-top: 28px;
+        margin-top: 30px;
         margin-bottom: 10px;
     }
 }

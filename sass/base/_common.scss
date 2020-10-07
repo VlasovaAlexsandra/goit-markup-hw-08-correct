@@ -26,9 +26,13 @@ img {
   margin-right: auto;
   margin-left: auto;
 
-  @include for-size(mobile) {
-    width: 480px;
+  @media screen and (min-width: 319px) and (max-width: 480px) {
+    max-width: 480px;
   }
+
+  // @include for-size(mobile) {
+  //   width: 480px;
+  // }
 
   @include for-size(tablet) {
     width: 768px;
